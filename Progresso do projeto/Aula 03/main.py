@@ -12,7 +12,7 @@ class Application:
         self.frames_screen()
         self.first_frame_widgets()
 
-        # Colocnado o app em loop
+        # Colocando o app em loop
         self.main_window.mainloop()
 
     def screen(self):
