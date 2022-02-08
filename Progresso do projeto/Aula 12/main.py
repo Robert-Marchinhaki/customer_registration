@@ -129,6 +129,7 @@ class Funcs:
         self.select_list()
 
     def change_client(self):
+        self.variables()
         self.connect_bd()
 
         self.cursor.execute(""" UPDATE clientes SET nome_cliente = ?, telefone = ?, cidade = ?
